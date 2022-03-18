@@ -1,0 +1,48 @@
+{
+    "name": "tguserbot",
+    "description": "Açıklama.",
+    "logo": "fotoğraf linki",
+    "keywords": [
+        "anahtar kelime",
+        "anahtar kelime",
+        "anahtar kelime",
+        "anahtar kelime",
+        "anahtar kelime"
+    ],
+    "repository": "https://t.me/Arazzq/tgvc-userbot",
+    "success_url": "Https://t.me/BASSYERAZ",
+    "image": "heroku/python",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "Değişken adı": {SESSION_NAME
+            "description": "@BotFather vasistesile ala bilersen..",
+            "value": "",
+            "required": true
+        },
+        "Değişken adı": {API_ID
+            "description": "my.telegram.org buradan ala bilersen.",
+            "value": "",
+            "required": true
+        },
+        "Değişken adı": {API_HASH
+            "description": Esasdi da.",
+            "value": "",
+            "required": true
+        },
+        
+        
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/Arazzq/heroku-buildpack-ffmpeg-latest"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
